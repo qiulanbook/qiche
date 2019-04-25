@@ -1,0 +1,65 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-03-05 13:22:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-04-18 09:45:44
+*/
+/*.box>div直接相邻*/
+@charset "utf-8";
+body,ul,ol,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img{border: none; vertical-align: top;}
+a{text-decoration: none;}
+strong{font-weight:normal;}/*清除加粗*/	
+em{font-style: normal;}/*清除斜体*/
+input{border:none;outline:none;}/*清除 聚焦*/
+textarea{resize: none;border:none;}/*清除右下角小尾巴*/
+
+
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+
+.gWidth{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.b{
+	font-weight: bold;
+}
+/*浅灰*/
+.gy{
+	color: #F3F3F3;
+
+}
+/*深一点的灰*/
+.gy2{
+	color: #D8D8D8;
+}
+/*最灰*/
+.gy3{
+	color: #ADADAD;
+}
+.org{
+	color: #F75100;
+}
+.orgbac{
+	background-color: #F75100;
+}
+
+
+
+
+
+	
+
+
+
